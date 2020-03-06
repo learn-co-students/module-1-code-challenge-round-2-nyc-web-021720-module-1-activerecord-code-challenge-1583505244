@@ -6,7 +6,7 @@ class Department < ActiveRecord::Base
     end
 
     def employees
-        self.employees
+        employees[:name]
     end
 
     def self.all

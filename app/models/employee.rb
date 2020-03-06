@@ -9,7 +9,7 @@ class Employee < ActiveRecord::Base
     end
 
     def manager
-        self[:manager_id]
+        #.where(manager[:name]
     end
 
     def department
