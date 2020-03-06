@@ -106,18 +106,18 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:
+    Answer Here: Employee, Calls, Accounts
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
-    Answer Here:
+    Answer Here:it binds the tables for us with using Active Record Associations like belongs to and has many but we must use change method to create or make changes to the tables as we see fit.
 
   How do you know when you need to use a join table?
 
-    Answer Here:
+    Answer Here: When there is a many to many assocaition to be made.
 
   What is/are the join table(s) in this application?
 
-    Answer Here:
+    Answer Here: the ones that have two foreign keys to connect the many to many assocaitions so accounts and calls.
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 3" \*\*_
