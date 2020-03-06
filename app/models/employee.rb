@@ -1,7 +1,8 @@
 class Employee < ActiveRecord::Base
     belongs_to :manager
     belongs_to :department
-    has_many :managers
+    # has_many :managers
+    has_many :specialists
 
     def name
         self[:name]
@@ -20,6 +21,10 @@ class Employee < ActiveRecord::Base
     end
 
     def managers
-        self.managers[:name]
+        managers[:name]
+    end
+
+    def specialists
+        specialists[:name]
     end
 end
