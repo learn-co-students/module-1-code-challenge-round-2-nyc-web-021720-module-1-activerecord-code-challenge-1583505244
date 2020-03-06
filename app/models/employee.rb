@@ -9,11 +9,12 @@ class Employee < ActiveRecord::Base
     end
 
     def manager
-        #.where(manager[:name]
+        manager[:name]
     end
 
     def department
-        self[:department_id]
+        # self[:department_id] #not right
+        department[:name]
     end
 
     def self.all
