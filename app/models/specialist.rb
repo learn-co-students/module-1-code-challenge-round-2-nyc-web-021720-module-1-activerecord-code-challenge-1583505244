@@ -7,7 +7,7 @@ class Specialist < ActiveRecord::Base
     # end
 
     def employees
-        EmployeeSpecialist.all.select { |object| object.specialist_id == self.id}
+        Employeespecialist.all.select { |object| object.specialist_id == self.id}
     end
 
 end

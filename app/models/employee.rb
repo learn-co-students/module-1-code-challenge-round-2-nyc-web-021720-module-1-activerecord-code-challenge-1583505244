@@ -18,15 +18,19 @@ class Employee < ActiveRecord::Base
     # end
 
     def managers
-        EmployeeManager.all.select { |object| object.employee_id == self.id}
+        Employeemanager.all.select { |object| object.employee_id == self.id}
     end
 
     def specialists
-        EmployeeSpecialist.all.select { |object| object.employee_id == self.id}
+        Employeespecialist.all.select { |object| object.employee_id == self.id}
     end
 
     def self.most_calls
         #Returns employee with most count
-        
+        # SELECT employee_id, 
+        # FROM :employeespecialists
+        # GROUP BY employee_id
+        # ORDER BY COUNT(employee_id) DESC
+        # LIMIT 1
     end
 end
