@@ -5,8 +5,8 @@ class Department < ActiveRecord::Base
     #     self.name
     # end
 
-    # def employees
-    #     Employee.all.select {|object| object.department_id == self.id}
-    # end
+    def employees
+        Employee.all.select {|object| object.department_id == self.id}
+    end
 
 end

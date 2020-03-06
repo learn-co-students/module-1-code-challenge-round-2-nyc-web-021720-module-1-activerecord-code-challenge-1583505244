@@ -106,18 +106,18 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:
+    Answer Here: employees, employeemanagers, employeespecialists
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
-    Answer Here:
+    Answer Here: Activerecord created methods did not have to be made. Methods that required us to go into other tables to pull out necessary information needed to be written. 
 
   How do you know when you need to use a join table?
 
-    Answer Here:
+    Answer Here: Many to many relations require a join table while one to many do not. 
 
   What is/are the join table(s) in this application?
 
-    Answer Here:
+    Answer Here: Because there were two many to many relatonships. 
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 3" \*\*_
