@@ -1,4 +1,9 @@
 class Employee < ActiveRecord::Base
-    belongs_to :manager
-    belongs_to :department
+
+    has_many :managers    
+def managers 
+    self.all.each do|e|
+        e.manager
+    end
+end
 end
