@@ -106,18 +106,18 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:
+    Answer Here: Employee
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
-    Answer Here:
+    Answer Here: ActiveRecord created manager,employee and department. We had to create specialist 
 
   How do you know when you need to use a join table?
 
-    Answer Here:
+    Answer Here: In a migration, we need to specify a belongs_to relation. You can not access Manager straight to Department, thats why we have a belongs_to in Employee.
 
   What is/are the join table(s) in this application?
 
-    Answer Here:
+    Answer Here: Employee
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 3" \*\*_
