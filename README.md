@@ -106,18 +106,19 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:
+    Answer Here:Specialsit is my join table , and It has foreig keys and also Manager table has employees_id as foreign key , because manager has many employees and has to have key 
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
-    Answer Here:
+    Answer Here:Active record creates tables, Ic created me add column table, remove column table, and create table. 
 
   How do you know when you need to use a join table?
 
-    Answer Here:
+    Answer Here: when is many to many relationship we have to have join table in this case specialist is join table. 
 
   What is/are the join table(s) in this application?
 
-    Answer Here:
+    Answer Here:in first example we had Employee as join table 
+    when question changed join table become specialist table. because specialist have many employees and have many many managers 
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 3" \*\*_
