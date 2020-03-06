@@ -7,6 +7,6 @@ class Manager < ActiveRecord::Base
     end
 
     def employees
-        Employees.all.select { |object| object.manager_id == self.id}
+        Employee.all.select { |object| object.manager_id == self.id}
     end
 end

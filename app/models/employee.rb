@@ -22,7 +22,7 @@ class Employee < ActiveRecord::Base
     end
 
     def specialists
-        EmployeeSpecialists.all.select { |object| object.employee_id == self.id}
+        EmployeeSpecialist.all.select { |object| object.employee_id == self.id}
     end
 
     def self.most_calls
