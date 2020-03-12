@@ -106,18 +106,19 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:
+    Answer Here: offices,employees, and problems
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
-    Answer Here:
+    Answer Here: most_calls was the only one we needed to create 
 
   How do you know when you need to use a join table?
 
-    Answer Here:
+    Answer Here: when there is a many to many relationship 
 
   What is/are the join table(s) in this application?
 
-    Answer Here:
+    Answer Here:offices and problems
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 3" \*\*_
+# ActiveRecordPractice
